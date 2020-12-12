@@ -1,0 +1,57 @@
+.buttons {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.buttons .link-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.buttons .link-btn a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons .back-btn a {
+  color: gray;
+  text-decoration: none;
+}
+
+.buttons-back {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.buttons-back .link-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.buttons-back .link-btn a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons-back .back-btn a {
+  color: gray;
+  text-decoration: none;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+.scrollable {
+  overflow-x: scroll;
+}
+
+.table tbody td {
+  vertical-align: inherit;
+}
+
